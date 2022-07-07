@@ -1,3 +1,4 @@
+li
 //════════════════════════════//
 //If you want to recode, reupload
 //or copy the codes/script,
@@ -63,7 +64,7 @@ global.location = "Morocco, Fkih Ben Salah" //ur location
 //bot bomdy 
 global.owner = ['212696093857']
 global.ownertag = '212696093857' //ur tag number
-global.botname = 'K4f's Bot' //ur bot name
+global.botname = 'K4F Bot' //ur bot name
 global.linkz = "https://vm.tiktok.com/ZMNUBSJ3x/" //your theme url which will be displayed on whatsapp
 global.websitex = "https://vm.tiktok.com/ZMNUBSJ3x/" //ur website to be displayed
 global.botscript = 'https://github.com/k4ftt/K4FBOT2' //script link
