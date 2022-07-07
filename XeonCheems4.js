@@ -2041,7 +2041,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
             let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '👀', buttonText: { displayText: '👀😂' }, type: 1 }
+                        { buttonId: '👀', buttonText: { displayText: '👀💀' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
             }
@@ -2090,7 +2090,7 @@ case 'dare':
     "Let the group choose a word and a well known song. You have to sing that song and send it in voice note",
     "Walk on your elbows and knees for as long as you can",
     "sing national anthem in voice note",
-    "Breakdance for 30 seconds in the sitting room😂",
+    "Breakdance for 30 seconds in the sitting room💀",
     "Tell the saddest story you know",
     "make a twerk dance video and put it on status for 5mins",
     "Eat a raw piece of garlic",
@@ -2099,7 +2099,7 @@ case 'dare':
     "make a short dance video without any filter just with a music and put it on ur status for 5hrs",
     "call ur bestie, bitch",
     "put your photo without filter on ur status for 10mins",
-    "say i love oli london in voice note🤣🤣",
+    "say i love oli london in voice note💀💀",
     "Send a message to your ex and say I still like you",
     "call Crush/girlfriend/bestie now and screenshot here",
     "pop to one of the group member personal chat and Say you ugly bustard",
@@ -2111,7 +2111,7 @@ case 'dare':
     "change name to I AM GAY for 5 hours",
     "chat to any contact in whatsapp and say i will be ur bf/gf for 5hours",
     "send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl",
-    "slap ur butt hardly send the sound of slap through voice note😂",
+    "slap ur butt hardly send the sound of slap through voice note💀",
     "state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world",
     "shout bravooooooooo and send here through voice note",
     "snap your face then send it here",
@@ -2119,7 +2119,7 @@ case 'dare':
     "shout using harsh words and send it here through vn",
     "shout you bastard in front of your mom/papa",
     "change the name to i am idiot for 24 hours",
-    "slap urself firmly and send the sound of slap through voice note😂",
+    "slap urself firmly and send the sound of slap through voice note💀",
     "say i love the bot owner xeon through voice note",
     "send your gf/bf pic here",
     "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
@@ -5986,7 +5986,7 @@ break
 case 'emojimix': {
 	   if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if (!q) reply(`*Example :* ${prefix + command} 🗿+🤣`)
+if (!q) reply(`*Example :* ${prefix + command} 🗿+💀`)
 let [emoji1, emoji2] = q.split`+`
 let kuntuh = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 for (let res of kuntuh.results) {
@@ -8794,7 +8794,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: 'Owner 💀',
                                     id: 'owner'
                                 }
                             }]
@@ -8815,7 +8815,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `Owner 💀`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
