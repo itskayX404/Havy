@@ -58,15 +58,15 @@ global.vcardowner = ['212696093857'] //ur owner number
 global.ownername = "K4F" //ur owner name
 global.ytname = "YT: K4F" //ur yt chanel name
 global.socialm = "TikTok: k4ftt" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.location = "Morocco, Fkih Ben Salah" //ur location
 
 //bot bomdy 
 global.owner = ['212696093857']
 global.ownertag = '212696093857' //ur tag number
 global.botname = 'K4f's Bot' //ur bot name
-global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
+global.linkz = "https://vm.tiktok.com/ZMNUBSJ3x/" //your theme url which will be displayed on whatsapp
+global.websitex = "https://vm.tiktok.com/ZMNUBSJ3x/" //ur website to be displayed
+global.botscript = 'https://github.com/k4ftt/K4FBOT2' //script link
 global.reactmoji = "🗿" //ur menu react emoji
 global.themeemoji = "💀" //ur theme emoji
 global.packname = "K4f's Bot Stickers " //ur sticker watermark packname
@@ -101,7 +101,7 @@ global.ntilink = []
 
 //omther
 global.sessionName = 'session'
-global.antitags = true
+global.antitags = false
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
