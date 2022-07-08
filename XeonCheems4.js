@@ -4918,7 +4918,7 @@ case 'glass':
 if (isBanChat) return reply(mess.banChat)
 if(!q) return reply(`Use ${prefix + command} text`)
 reply(mess.wait)
- maker.ephoto360("https://en.ephoto360.com/write-text-on-wet-glass-online-589.html", [
+ maker.textpro("https://en.ephoto360.com/write-text-on-wet-glass-online-589.html", [
      `${q}`,])
     .then((data) => XeonBotInc.sendMessage(m.chat, { image: { url: data }, caption: `Made by ${global.botname}` }, { quoted: m }))
     .catch((err) => console.log(err));
