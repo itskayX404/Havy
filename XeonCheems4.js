@@ -8673,6 +8673,26 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 XeonBotInc.sendContact(m.chat, global.vcardowner, m)
             }
             break
+case 'getpic': case 'getpp': {
+   if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+if (qtod === "true") {
+try {
+pporg = await XeonBotInc.profilePictureUrl(m.quoted.sender, 'image')
+} catch {
+pporg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+}
+XeonBotInc.sendMessage(m.chat, { image : { url : pporg }, caption:`Done!` }, { quoted : m })
+} else if (qtod === "false") {
+try {
+pporgs = await XeonBotInc.profilePictureUrl(from, 'image')
+} catch {
+pporgs = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+}
+XeonBotInc.sendMessage(m.chat, { image : { url : pporgs }, caption:`Done!` }, { quoted : m })
+}
+}
+break
   case 'setmenu': {
             	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
