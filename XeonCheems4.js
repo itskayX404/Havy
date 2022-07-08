@@ -2389,11 +2389,10 @@ if (isBanChat) return reply(mess.banChat)
                 }
                 break
             case 'tagall': {
-            	if (isBan) return reply(mess.ban)	 			
+            	if (isBan) return reply(mess.ban)
+if (!isCreator) return replay(mess.owner)
 if (isBanChat) return reply(mess.banChat)
                 if (!m.isGroup) return replay(`${mess.group}`)
-                if (!isBotAdmins) return replay(`${mess.botAdmin}`)
-                if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
@@ -2407,8 +2406,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
                 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
             if (!m.isGroup) return replay(`${mess.group}`)
-            if (!isBotAdmins) return replay(`${mess.botAdmin}`)
-            if (!isAdmins) return replay(`${mess.admin}`)
+if (!isCreator) return replay(mess.owner)
             XeonBotInc.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
             }
             break
