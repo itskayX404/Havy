@@ -1114,6 +1114,7 @@ const latensie = speed() - timestampe
    │✑  Please Select
    │✑  The Button Below
    └─────────────┈ ⳹`
+const qtod = m.quoted? "true":"false"
    
    //randoming function
 function pickRandom(list) {
@@ -8673,6 +8674,19 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 XeonBotInc.sendContact(m.chat, global.vcardowner, m)
             }
             break
+case 'getname': {
+
+   if (isBan) return reply(mess.ban)	 			
+
+if (isBanChat) return reply(mess.banChat)
+if (qtod === "true") {
+namenye = await XeonBotInc.getName(m.quoted.sender)
+replay(namenye)
+} else if (qtod === "false") {
+XeonBotInc.sendMessage(from, {text:"Reply person"}, {quoted:m})
+}
+}
+break
 case 'getpic': case 'getpp': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
