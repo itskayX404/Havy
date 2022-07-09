@@ -68,7 +68,7 @@ global.botname = 'Bot-Wa' //ur bot name
 global.linkz = "https://instagram.com/itsme_danuu" //your theme url which will be displayed on whatsapp
 global.websitex = "https://raflieasyrv.my.id/op/what.mp4" //ur website to be displayed
 global.botscript = 'https://github.com/Nurutomo/wabot-aq' //script link
-global.reactmoji = "🗿" //ur menu react emoji
+global.reactmoji = "❤" //ur menu react emoji
 global.themeemoji = "😁" //ur theme emoji
 global.packname = "Bot-Wa " //ur sticker watermark packname
 global.author = "Dan" //ur sticker watermark author
@@ -101,7 +101,7 @@ global.autorep = []
 global.ntilink = []
 
 //omther
-global.sessionName = 'sessions'
+global.sessionName = 'session'
 global.antitags = false
 global.prefa = ['','!','.','🐦','🐤','🗿','#']
 global.sp = '⭔'
