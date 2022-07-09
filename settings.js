@@ -101,7 +101,7 @@ global.autorep = []
 global.ntilink = []
 
 //omther
-global.sessionName = 'session'
+global.sessionName = 'sessions'
 global.antitags = false
 global.prefa = ['','!','.','🐦','🐤','🗿','#']
 global.sp = '⭔'
