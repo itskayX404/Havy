@@ -56,7 +56,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['6288221400832'] //ur owner number
-global.ownername = "Dan" //ur owner name
+global.ownername = "ItsmeDann" //ur owner name
 global.ytname = "Ra ndue" //ur yt chanel name
 global.socialm = "IG @itsme_danuu" //ur github or insta name
 global.location = "adoh pokok e" //ur location
@@ -64,14 +64,14 @@ global.location = "adoh pokok e" //ur location
 //bot bomdy 
 global.owner = ['6288221400832']
 global.ownertag = '6288221400832' //ur tag number
-global.botname = 'Bot-Wa' //ur bot name
+global.botname = 'Anya-Bot' //ur bot name
 global.linkz = "https://instagram.com/itsme_danuu" //your theme url which will be displayed on whatsapp
-global.websitex = "https://raflieasyrv.my.id/op/what.mp4" //ur website to be displayed
+global.websitex = "https://ekagans02.herokuapp.com" //ur website to be displayed
 global.botscript = 'https://github.com/Nurutomo/wabot-aq' //script link
 global.reactmoji = "❤" //ur menu react emoji
 global.themeemoji = "😁" //ur theme emoji
-global.packname = "Bot-Wa " //ur sticker watermark packname
-global.author = "Dan" //ur sticker watermark author
+global.packname = "Anya-Bot" //ur sticker watermark packname
+global.author = "ItsmeDann" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
