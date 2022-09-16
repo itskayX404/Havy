@@ -62,16 +62,16 @@ global.socialm = "IG @itsme_danuu" //ur github or insta name
 global.location = "adoh pokok e" //ur location
 
 //bot bomdy 
-global.owner = ['6288221400832']
-global.ownertag = '6288221400832' //ur tag number
-global.botname = 'Anya-Bot' //ur bot name
-global.linkz = "https://instagram.com/itsme_danuu" //your theme url which will be displayed on whatsapp
-global.websitex = "https://ekagans02.herokuapp.com" //ur website to be displayed
+global.owner = ['6282180026483']
+global.ownertag = '6282180026483' //ur tag number
+global.botname = 'Havy-Bot' //ur bot name
+global.linkz = "https://instagram.com/kayhnz_" //your theme url which will be displayed on whatsapp
+global.websitex = "https://github.com/itskayx404" //ur website to be displayed
 global.botscript = 'https://github.com/Nurutomo/wabot-aq' //script link
 global.reactmoji = "❤" //ur menu react emoji
 global.themeemoji = "😁" //ur theme emoji
-global.packname = "Anya-Bot" //ur sticker watermark packname
-global.author = "ItsmeDann" //ur sticker watermark author
+global.packname = "Havy-Bot" //ur sticker watermark packname
+global.author = "Itsmekay" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -80,7 +80,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['6288221400832'] //ur premium numbers
+global.premium = ['6282180026483'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
